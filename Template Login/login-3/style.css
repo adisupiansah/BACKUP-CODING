@@ -1,0 +1,170 @@
+/* tulisan untuk kelas judul login */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+body{
+    margin: 0 auto;
+    font-family: "Poppins", sans-serif;
+    /* background-color: #387ADF; */
+    background-color: #ffff;
+}
+
+.background{
+    background-color: #ffffff;
+    max-width: 100%;
+    min-height: 100vh;
+}
+.backgroun{
+    background-image: url('./img/login.jpg');
+    width: 50%;
+    min-height: 10%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+img{
+    width: 70%;
+  
+}
+
+
+/* icon, kasi posisi icon di dalam input */
+.input-with-icon {
+    position: relative;
+  }
+  
+.icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    font-size: 1.2em;
+    color: #1d1d1d; /* Adjust icon color here */
+  }
+.form-control{
+    padding-left: 2.7em;
+  }
+
+/* form */
+.clas-input input {
+    height: 50px;
+    border: 1px solid ;
+    /* border-radius: 20px; */
+    background-color: #EFEFEF;
+}
+.clas-input input:focus {
+    border-color: #387ADF; 
+    box-shadow: 0 0 0 1px #387ADF; 
+    background-color: #EFEFEF;
+}
+
+.clas-input .pw{
+    margin-top: 20px;
+}
+
+.check{
+    margin-top: 25px;
+}
+
+/* JUDUL & TEXT LOGIN */
+.judul-login{
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #1d1d1d;
+    font-family: "Merriweather", serif;
+}
+
+.button{
+    margin-top: 10px;
+    
+}
+.button button{
+    background-color: #387ADF;
+    color: #F5F7F8;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.button button:hover{
+    border: 2px solid #387ADF;
+    color: #1d1d1d;
+}
+
+/* sign Up */
+.button .signUp{
+    background-color: transparent;
+    border: 2px solid #387ADF;
+    color: #1d1d1d;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.button .signUp:hover{
+    background-color: #387ADF;
+    color: #F5F7F8;
+}
+/* login with */
+.login-with p{
+    font-size: 18px;
+    font-weight: 500;
+}
+.circle{
+    background-color: #387ADF;
+    padding: 5px 5px 2px 5px;
+    border-radius: 50px;
+}
+.login-with .fa-brands{
+    font-size: 21px;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    body{
+        background-image: url('img/login.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+   .background{
+    background: rgba(245, 247, 248, 0.5);
+    backdrop-filter: blur(5px);
+     
+   }
+   /* form check */
+   .form-check{
+    margin-top: -10px;
+   }
+   .form-check label{
+    font-size: 13px;
+   }
+   .check p{
+    font-size: 12px;
+    }
+    .sudah-punya{
+        margin-top: -6px;
+    }
+    /* clas button */
+    .button{
+        margin-top: -10px;
+    }
+
+    /* class login-with */
+    .login-with{
+        margin-top: -20px;
+    }
+    .login-with .circle{
+        padding: 5px 7px 3px 7px;
+    }
+    .login-with .fa-brands{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* form input */
+    .clas-input input {
+        background-color: #ffff;
+    }
+    .clas-input input:focus {
+        background-color: #ffff;
+    }
+
+}
